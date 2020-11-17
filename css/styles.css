@@ -2436,14 +2436,20 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-link{
+  color: #fff;
+  background-color: #fec936;
+  border-color: #b17c6c;
+}
+
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #febf36;
+  border-color: #b17c6c;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #fec810;
+  background-color: #F15816;
   border-color: #fec503;
 }
 .btn-primary:focus, .btn-primary.focus {
