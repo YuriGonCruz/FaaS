@@ -2659,7 +2659,7 @@ fieldset:disabled a.btn {
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #23272b;
+  background-color: #0077B5;
   border-color: #1d2124;
 }
 .btn-dark:focus, .btn-dark.focus {
@@ -10488,4 +10488,13 @@ section#contact form#sentMessage :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/*zoom img*/
+.zoomImg{
+  transition: 200ms;
+}
+
+.zoomImg:hover{
+  transform: scale(1.10);
+  
 }
