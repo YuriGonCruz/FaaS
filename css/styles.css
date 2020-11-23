@@ -10137,6 +10137,14 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
+.derechoAutor{
+  font-size: 10px;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Droid Serif",
+}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
