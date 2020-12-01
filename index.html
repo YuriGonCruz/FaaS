@@ -49,16 +49,18 @@
         
         <!-- Services-->
       
-            <div class="text-center">
+            <div class="text-center mt-5">
                 <h2 class="section-heading text-uppercase">Services</h2>
                 <h3 class="section-subheading text-muted">Pour plus de détails, contactez-nous!</h3>
             </div>
+            <div class="bodyServices">
             <div class="container slider">
                 <ul class="ulCarrusel">
-                  <li class="active liCarrusel">
+                  
+                  <li class=" liCarrusel">
                     <img src="assets/img/carrusel/base de donnees.jpg" />
                   </li>
-                  <li class="  liCarrusel">
+                  <li class="active  liCarrusel">
                     <img src="assets/img/carrusel/modeles.jpg" />
                   </li>
                   <li class=" liCarrusel  ">
@@ -67,11 +69,11 @@
                   <li class=" liCarrusel">
                     <img src="assets/img/carrusel/test.jpg" />
                   </li>
-                 
+                
                 </ul>
               </div>
 
-            
+            </div>
 
         
        
@@ -624,7 +626,7 @@
             $(".liCarrusel").on("click", function(){
             
             var item = $(this),
-                pos = "-"+(item.index() * 515)+"px";
+                pos = "-"+(item.index() * 100)+"px";
             
             item.addClass("active");
             item.siblings().removeClass("active");
