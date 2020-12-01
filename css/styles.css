@@ -10527,8 +10527,8 @@ section#contact form#sentMessage :-ms-input-placeholder {
 
 .slider {
   position: relative;
-  left: -320px;
-  margin-left: 50%;
+  left: -10px;
+  margin-left: 45%;
 }
 .ulCarrusel {
   white-space: nowrap;
