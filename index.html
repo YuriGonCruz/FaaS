@@ -48,7 +48,36 @@
         <a class=" ml-5 derechoAutor " href="https://www.freepik.es/fotos/fondo" target="_blank">Image créée par-www.freepik.es</a>
         
         <!-- Services-->
-        <section class="page-section" id="services">
+      
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Services</h2>
+                <h3 class="section-subheading text-muted">Pour plus de détails, contactez-nous!</h3>
+            </div>
+            <div class="container slider">
+                <ul class="ulCarrusel">
+                  <li class="active liCarrusel">
+                    <img src="assets/img/carrusel/base de donnees.jpg" />
+                  </li>
+                  <li class="  liCarrusel">
+                    <img src="assets/img/carrusel/modeles.jpg" />
+                  </li>
+                  <li class=" liCarrusel  ">
+                    <img src="assets/img/carrusel/interface.jpg" />
+                  </li>
+                  <li class=" liCarrusel">
+                    <img src="assets/img/carrusel/test.jpg" />
+                  </li>
+                 
+                </ul>
+              </div>
+
+            
+
+        
+       
+ <!--
+       <br>
+        <section class="page-section " id="services">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Services</h2>
@@ -95,7 +124,7 @@
 
                     
                     <div class="col-md-4 mt-4">
-                         <!--comentario en mi oagina de prueba--><p> ***Este servicio cuando se haga la integración en ASP NET , se pondrá en otra vista ***</p>
+                       
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-bug fa-stack-1x fa-inverse"></i>
@@ -108,7 +137,7 @@
                    
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
@@ -588,5 +617,22 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        
+         <!-- Carrusel Services JS-->
+        <script>
+
+            $(".liCarrusel").on("click", function(){
+            
+            var item = $(this),
+                pos = "-"+(item.index() * 515)+"px";
+            
+            item.addClass("active");
+            item.siblings().removeClass("active");
+            
+            $(".ulCarrusel").css("left", pos);
+            
+            });
+            
+        </script>
     </body>
 </html>

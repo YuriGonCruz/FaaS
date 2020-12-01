@@ -10515,3 +10515,50 @@ section#contact form#sentMessage :-ms-input-placeholder {
   
 }
 
+
+/*Carrusel Services*/
+
+.bodyServices{
+  padding: 3em 0;
+  overflow-x: hidden;
+  background: #FFF;
+}
+
+
+.slider {
+  position: relative;
+  left: -320px;
+  margin-left: 50%;
+}
+.ulCarrusel {
+  white-space: nowrap;
+  overflow: visible;
+  position: relative;
+  left: 0;
+  transition: left 1s;
+}
+.liCarrusel {
+  display: inline-block;
+  margin: 40px;
+  cursor: pointer;
+  height: 422px;
+}
+.liCarrusel img {
+  border: 10px solid #FFF;
+  box-shadow: 0 3px 6px 0 #999;
+  display: block;
+  height: 300px;
+  opacity: 0.6;
+  margin-top: 50px;
+  transition: height 1s, opacity 0.5s, margin-top 1s;
+}
+
+.liCarrusel:hover img {
+  box-shadow: 0 5px 10px 0 #333;
+}
+
+.liCarrusel.active img {
+  margin-top: 0;
+  height: 450px;
+  opacity: 1;
+}
