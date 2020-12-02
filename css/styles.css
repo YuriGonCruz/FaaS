@@ -10527,7 +10527,7 @@ section#contact form#sentMessage :-ms-input-placeholder {
 
 .slider {
   position: relative;
-  left: 200px;
+  
   margin-right: 50%;
 }
 .ulCarrusel {
@@ -10539,9 +10539,9 @@ section#contact form#sentMessage :-ms-input-placeholder {
 }
 .liCarrusel {
   display: inline-block;
-  margin: 40px;
+  margin: 45px;
   cursor: pointer;
-  height: 422px;
+  height: 400px;
 }
 .liCarrusel img {
   border: 10px solid #FFF;
@@ -10559,6 +10559,6 @@ section#contact form#sentMessage :-ms-input-placeholder {
 
 .liCarrusel.active img {
   margin-top: 0;
-  height: 400px;
+  height: 380px;
   opacity: 1;
 }
