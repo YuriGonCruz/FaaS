@@ -10527,7 +10527,7 @@ section#contact form#sentMessage :-ms-input-placeholder {
 
 .slider {
   position: relative;
-  
+  left: 100px;
   margin-right: 50%;
 }
 .ulCarrusel {
