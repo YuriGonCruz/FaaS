@@ -2395,7 +2395,7 @@ textarea.form-control {
 }
 
 .boton{
-  width: 12rem;
+  width: 13rem;
 }
 .botonPorfolio{
   width: 9rem; 
@@ -2454,6 +2454,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #febf36;
   border-color: #b17c6c;
+  width: 250px;
 }
 .btn-primary:hover {
   color: #fff;
@@ -10010,7 +10011,7 @@ p {
 .page-section h3.section-subheading {
   color: white;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
@@ -10044,9 +10045,9 @@ img::-moz-selection {
 }
 
 .btn-xl {
-  padding: 1.25rem 2.5rem;
+  padding: 1rem 2.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -10210,7 +10211,7 @@ header.masthead .masthead-heading {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  padding: 1.5rem;
+  padding: 2px;
   text-align: center;
   background-color: #fff;
 }
